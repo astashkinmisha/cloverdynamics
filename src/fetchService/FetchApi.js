@@ -1,6 +1,6 @@
-let url = 'https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&api_key=uidhUmUt7cvVJxb3qPjQAJvDHqTRxeqF6MK7CYLl';
+let urlCuriosity = 'https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&page=2&api_key=DEMO_KEY';
 
 export const getData = () => {
-    return fetch(url)
+    return fetch(urlCuriosity)
         .then(value => value.json())
 }

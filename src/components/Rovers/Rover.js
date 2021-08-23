@@ -1,9 +1,17 @@
-export default function Rover ({value}){
+import Photos from "./Photos";
 
-    // let {id, camera:{name,},photos } = value;
+export default function Rover ({value}){
+    // console.log(value.photos);
+    // let {photos:{img_src}} = value;
+    // let {photos:{id:{img_src}}]} = value;
+    console.log(value);
+    let {photos} = value;
+    // console.log(id);
     return (
         <div>
-            {value.img_src}
+            {
+                photos.map(value => <Photos key={value.id} photos={value}/>)
+            }
         </div>
     );
 }
