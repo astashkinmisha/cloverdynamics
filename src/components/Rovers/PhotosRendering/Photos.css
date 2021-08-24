@@ -1,0 +1,11 @@
+.dataBox {
+    background-color: linen;
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+}
+
+.back-button {
+    text-decoration-color: silver;
+    width: 100%;
+}

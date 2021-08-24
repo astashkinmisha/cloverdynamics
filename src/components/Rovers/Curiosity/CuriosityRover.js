@@ -1,6 +1,7 @@
-import Photos from "./Photos";
+import Photos from "../PhotosRendering/Photos";
 
-export default function Rover ({value}){
+
+export default function CuriosityRover ({value}){
     // console.log(value.photos);
     // let {photos:{img_src}} = value;
     // let {photos:{id:{img_src}}]} = value;

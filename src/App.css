@@ -1,0 +1,14 @@
+.main-screen {
+    background-color: lightgrey;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+

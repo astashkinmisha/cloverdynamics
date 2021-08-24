@@ -1,0 +1,14 @@
+
+.rovers-photos-link {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: gray;
+}
+
+.main-button {
+    width: 100%;
+    color: #b86363;
+    opacity: 60%;
+
+}
